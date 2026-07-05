@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  deploy:
+    uses: catuslabs/cicd-tools/.github/workflows/deploy-sb-app-to-ghcr.yml@main
+    with:
+      module-name: 'application'
+    permissions:
+      id-token: write
+      contents: read
+      packages: write
