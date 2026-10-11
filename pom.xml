@@ -24,7 +24,7 @@
         <archunit.version>1.4.0</archunit.version>
         <testcontainers.version>1.21.1</testcontainers.version>
         <springdoc-openapi.version>2.8.14</springdoc-openapi.version>
-        <jackson-databind-nullable.version>0.2.6</jackson-databind-nullable.version>
+        <jackson-databind-nullable.version>0.2.12</jackson-databind-nullable.version>
         <openapi-generator-maven-plugin.version>7.21.0</openapi-generator-maven-plugin.version>
         <instancio.version>5.5.1</instancio.version>
     </properties>
